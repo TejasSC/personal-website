@@ -7,8 +7,8 @@ function Cards() {
     <div className='cards'>
       <h1>Lmao these places are pretty cool</h1>
       <div className='cards__container'>
-        <div className='cards_wrapper'>
-          <ul className='cards_items'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
             <CardItem
               src="images/img-9.jpg"
               text="blue ass water haha wooo"
