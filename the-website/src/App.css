@@ -8,6 +8,7 @@
 .home,
 .music,
 .projects,
+.about,
 .sign-up {
     display: flex;
     height: 90vh;
@@ -17,8 +18,8 @@
 }
 
 .music {
-    /*background-image: url('/images/img-2.jpg');*/
-    background-position: center;
+    background-image: url('./images/img-2.jpg');
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -26,17 +27,26 @@
 }
 
 .projects {
-    /*background-image: url('/images/img-1.jpg');*/
-    background-position: center;
-    background-size: fill;
+    background-image: url('./images/img-1.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font: 100px;
+}
+
+.about {
+    background-image: url('./images/img-7.jpg');
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     font: 100px;
 }
 
 .sign-up {
-    /*background-image: url('/images/img-8.jpg');*/
-    background-position: center;
+    background-image: url('./images/img-3.jpg');
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
