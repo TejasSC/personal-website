@@ -10,9 +10,9 @@ h1 {
 .cards__container {
     display: flex;
     flex-flow: column;
-    align-items: stretch;
+    align-items: center;
     max-width: 1120px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
